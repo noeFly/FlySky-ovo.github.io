@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>[ 01 ] 技藝班筆記</title>
+    <url>/%E6%8A%80%E8%97%9D%E7%8F%AD%E7%AD%86%E8%A8%9801/</url>
+    <content><![CDATA[<h1 id="章節"><a href="#章節" class="headerlink" title="章節"></a>章節</h1><ul>
+<li><a href="#%E7%AB%A0%E7%AF%80">章節</a></li>
+<li><a href="#%E7%B6%B2%E8%B7%AF%E6%A6%82%E8%AB%96">網路概論</a><ul>
+<li><a href="#iso">ISO</a></li>
+<li><a href="#osi-%E4%B8%83%E5%B1%A4%E5%A1%94">OSI 七層塔</a><ul>
+<li><a href="#%E4%BD%8D%E7%BD%AE">位置</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%96%AE%E4%BD%8D%E6%8F%9B%E7%AE%97">單位換算</a></li>
+<li><a href="#%E5%AD%B8%E7%BF%92%E5%BF%83%E5%BE%97">學習心得</a></li>
+<li><a href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99">參考資料</a></li>
+</ul>
+<h1 id="網路概論"><a href="#網路概論" class="headerlink" title="網路概論"></a>網路概論</h1><h2 id="ISO"><a href="#ISO" class="headerlink" title="ISO"></a>ISO</h2><p> 國際標準化組織（International Organization for Standardization），訂定了許多國際通用的標準。</p>
+<blockquote>
+<p>組織網站：<a href="https://www.iso.org/">https://www.iso.org/</a></p>
+</blockquote>
+<h2 id="OSI-七層塔"><a href="#OSI-七層塔" class="headerlink" title="OSI 七層塔"></a>OSI 七層塔</h2><p>開放式系統互聯模型（<strong>O</strong>pen <strong>S</strong>ystem <strong>I</strong>nterconnection Model）是一種概念模型，<br>由國際標準化組織提出，<br>一個試圖使各種電腦在世界範圍內互連為網路的標準框架。<br>其中包含以下七層：</p>
+<table>
+<thead>
+<tr>
+<th align="center">層次</th>
+<th align="center">名稱</th>
+<th align="center">名稱</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>1</strong></td>
+<td align="center">實體層</td>
+<td align="center">物理層</td>
+</tr>
+<tr>
+<td align="center"><strong>2</strong></td>
+<td align="center">資料連結層</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>3</strong></td>
+<td align="center">網路層</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>4</strong></td>
+<td align="center">傳輸層</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>5</strong></td>
+<td align="center">會議層</td>
+<td align="center">會話層</td>
+</tr>
+<tr>
+<td align="center"><strong>6</strong></td>
+<td align="center">表現層</td>
+<td align="center">表示層</td>
+</tr>
+<tr>
+<td align="center"><strong>7</strong></td>
+<td align="center">應用層</td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h3 id="位置"><a href="#位置" class="headerlink" title="位置"></a>位置</h3><table>
+<thead>
+<tr>
+<th align="center">*</th>
+<th align="center">OSI</th>
+<th align="center">大小</th>
+<th align="center">接受值範圍</th>
+<th align="center">e.g.</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">MAC</td>
+<td align="center">2-資料連結層</td>
+<td align="center">48 bits</td>
+<td align="center">00~ff</td>
+<td align="center">00:00:5e:00:53:af</td>
+</tr>
+<tr>
+<td align="center">IP</td>
+<td align="center">3-網路層</td>
+<td align="center">32 bits</td>
+<td align="center">0~255</td>
+<td align="center">127.0.0.1</td>
+</tr>
+<tr>
+<td align="center">PORT</td>
+<td align="center">4-傳輸層</td>
+<td align="center">16 bits</td>
+<td align="center">0~65535</td>
+<td align="center">80 (Web)</td>
+</tr>
+</tbody></table>
+<h1 id="單位換算"><a href="#單位換算" class="headerlink" title="單位換算"></a>單位換算</h1><ul>
+<li>bit 位元</li>
+<li>Byte 位元組</li>
+<li>1 Byte &#x3D; 8bits</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">名稱</th>
+<th align="center">縮寫</th>
+<th align="center">十進制</th>
+<th align="center">二進制</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">Tera-</td>
+<td align="center">T</td>
+<td align="center">$10^{12}$</td>
+<td align="center">$2^{40}$</td>
+</tr>
+<tr>
+<td align="center">Giga-</td>
+<td align="center">G</td>
+<td align="center">$10^9$</td>
+<td align="center">$2^{30}$</td>
+</tr>
+<tr>
+<td align="center">Mega-</td>
+<td align="center">M</td>
+<td align="center">$10^6$</td>
+<td align="center">$2^{20}$</td>
+</tr>
+<tr>
+<td align="center">kilo-</td>
+<td align="center">k</td>
+<td align="center">$10^3$</td>
+<td align="center">$2^{10}$</td>
+</tr>
+<tr>
+<td align="center">centi-</td>
+<td align="center">c</td>
+<td align="center">$10^{-2}$</td>
+<td align="center">❌</td>
+</tr>
+<tr>
+<td align="center">milli-</td>
+<td align="center">m</td>
+<td align="center">$10^{-6}$</td>
+<td align="center">❌</td>
+</tr>
+<tr>
+<td align="center">micro-</td>
+<td align="center">µ</td>
+<td align="center">$10^{-9}$</td>
+<td align="center">❌</td>
+</tr>
+</tbody></table>
+<h1 id="學習心得"><a href="#學習心得" class="headerlink" title="學習心得"></a>學習心得</h1><p><em>專科的事物這得很細，或許日常生活中不常看見但在這個領域中卻是個必備知識，不來嘗試真的不會理解。</em><br><em>至於那 150 題的題本讓我很驚訝，會考就是會考，在高中還是沒有變化，即使我恨討厭「制式化」的測驗方式，但還是只能面對，希望能堅持下去，奪得高分。</em></p>
+<h1 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h1><ul>
+<li>維基百科<ol>
+<li>ISO：<a href="https://lurl.cc/gS6Uc">https://lurl.cc/gS6Uc</a></li>
+<li>OSI模型：<a href="https://lurl.cc/063kS">https://lurl.cc/063kS</a></li>
+</ol>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技藝班筆記</category>
+      </categories>
+      <tags>
+        <tag>技藝班</tag>
+        <tag>學習筆記</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[ 00 ] 國中自然反應式</title>
+    <url>/%E5%9C%8B%E4%B8%AD%E8%87%AA%E7%84%B6%E5%8F%8D%E6%87%89%E5%BC%8F/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>[ 02 ] 技藝班筆記</title>
+    <url>/%E6%8A%80%E8%97%9D%E7%8F%AD%E7%AD%86%E8%A8%9802/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>技藝班筆記</category>
+      </categories>
+      <tags>
+        <tag>技藝班</tag>
+        <tag>學習筆記</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[ 03 ] 技藝班筆記</title>
+    <url>/%E6%8A%80%E8%97%9D%E7%8F%AD%E7%AD%86%E8%A8%9803/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>技藝班筆記</category>
+      </categories>
+      <tags>
+        <tag>技藝班</tag>
+        <tag>學習筆記</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[ 01 ] 製作個人部落格 - 前言</title>
+    <url>/%E8%A3%BD%E4%BD%9C%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC01/</url>
+    <content><![CDATA[<h1 id="章節"><a href="#章節" class="headerlink" title="章節"></a>章節</h1><ul>
+<li><a href="#%E7%AB%A0%E7%AF%80">章節</a></li>
+<li><a href="#%E6%95%99%E5%AD%B8%E5%8B%95%E6%A9%9F">教學動機</a></li>
+<li><a href="#%E5%AD%B8%E7%BF%92%E9%9B%A3%E5%BA%A6">學習難度</a></li>
+<li><a href="#%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E5%81%9A%E7%B6%B2%E7%AB%99">為什麼要做網站？</a></li>
+</ul>
+<h1 id="教學動機"><a href="#教學動機" class="headerlink" title="教學動機"></a>教學動機</h1><p>其實你所看到的目前這個網站就是用 Hexo 寫出來的，準確一點，應該是「生成」出來的。<br>我是個喜歡自己搞東西的人，如果可以的話會自己弄一個而非直接用網路上的資源來弄。<br>應該就差不多時這樣，嗯(?</p>
+<h1 id="學習難度"><a href="#學習難度" class="headerlink" title="學習難度"></a>學習難度</h1><p>這不難，主要編寫的時候是寫 MarkDown 而不是 Html，也不用用手搓出來一個 CSS 或是 JavaScript。<br>這些麻煩的東西基本上都會有主題作者編寫完成，我們只要調整一下設定就好了！</p>
+<h1 id="為什麼要做網站？"><a href="#為什麼要做網站？" class="headerlink" title="為什麼要做網站？"></a>為什麼要做網站？</h1><p>嗯…<del>可以凸顯你的文學氣息</del><br>（請忽略上面那句話）</p>
+<p>做個網站可以讓你放一下你想要的文章、教學文、自創小說、日記甚至是自己做的東西介紹都可以放在這裡。<br>而且多寫一些文章還有益提升國文能力！（這時候我在準備會考）</p>
+<hr>
+<p>大概就是這樣了，你我們就下一篇文章見嘍！</p>
+]]></content>
+      <categories>
+        <category>製作個人部落格</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[ 02 ] 製作個人部落格 - 環境建置</title>
+    <url>/%E8%A3%BD%E4%BD%9C%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC02/</url>
+    <content><![CDATA[<h1 id="章節"><a href="#章節" class="headerlink" title="章節"></a>章節</h1><ul>
+<li><a href="#%E7%AB%A0%E7%AF%80">章節</a></li>
+<li><a href="#visual-studio-code">Visual Studio Code</a><ul>
+<li><a href="#%E5%AE%89%E8%A3%9D">安裝</a></li>
+</ul>
+</li>
+<li><a href="#nodejs">Node.js</a><ul>
+<li><a href="#%E5%AE%89%E8%A3%9D-1">安裝</a></li>
+</ul>
+</li>
+<li><a href="#hexo">Hexo</a><ul>
+<li><a href="#%E5%AE%89%E8%A3%9D-2">安裝</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="Visual-Studio-Code"><a href="#Visual-Studio-Code" class="headerlink" title="Visual Studio Code"></a>Visual Studio Code</h1><p>這是我們在編輯設定、編輯文章時使用的文字編輯器。<br>並且支援安裝擴充套件，讓我們編輯部落格的時候更加方便！</p>
+<h2 id="安裝"><a href="#安裝" class="headerlink" title="安裝"></a>安裝</h2><p>先到 <a href="https://code.visualstudio.com/">VS Code</a> 的官網<br>有一個大大藍藍的按鈕給他點下去就好了！</p>
+<h1 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a>Node.js</h1><p>簡單一點就是整個部落格的核心，他會負責處理大部分的事情。</p>
+<h2 id="安裝-1"><a href="#安裝-1" class="headerlink" title="安裝"></a>安裝</h2><ol>
+<li><p>首先前往 <a href="https://nodejs.org/zh-tw/">Node.js</a> 官網</p>
+</li>
+<li><p>選擇「長期維護版（LTS）」</p>
+<blockquote>
+<p>在官網你會發現有兩個版本，分別是<code>長期維護版（LTS）</code>和<code>最新版本（Current）</code></p>
+<p><code>長期維護版（LTS）</code>會比較穩定沒有那麼多的問題</p>
+<p><code>最新版本（Current）</code>則是會有新的功能，可以嘗鮮一下，但是相對的就沒那麼穩定。</p>
+</blockquote>
+</li>
+<li><p>點擊左邊的長期維護版，下載後照著步驟做，Node.js 就弄好嘍！</p>
+</li>
+</ol>
+<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>Hexo 是我們部落格的核心套件，負責幫我們生成網站的檔案、處理各種漂亮主題等。</p>
+<h2 id="安裝-2"><a href="#安裝-2" class="headerlink" title="安裝"></a>安裝</h2><figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm install hexo-cli<br></code></pre></td></tr></table></figure>
+
+<hr>
+<p><em>下一篇就會正式開始編輯網站，加油！</em></p>
+]]></content>
+      <categories>
+        <category>製作個人部落格</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>[ 03 ] 製作個人部落格 - 建立專案</title>
+    <url>/%E8%A3%BD%E4%BD%9C%E5%80%8B%E4%BA%BA%E9%83%A8%E8%90%BD%E6%A0%BC03/</url>
+    <content><![CDATA[<h1 id="章節"><a href="#章節" class="headerlink" title="章節"></a>章節</h1><ul>
+<li><a href="#%E7%AB%A0%E7%AF%80">章節</a></li>
+<li><a href="#%E5%89%B5%E5%BB%BA%E5%B0%88%E6%A1%88">創建專案</a><ul>
+<li><a href="#%E5%89%B5%E5%BB%BA%E8%B3%87%E6%96%99%E5%A4%BE">創建資料夾</a></li>
+<li><a href="#%E9%96%8B%E5%95%9F-visual-studio-code">開啟 Visual Studio Code</a></li>
+<li><a href="#%E6%89%93%E9%96%8B%E7%B5%82%E7%AB%AF%E6%A9%9F">打開終端機</a></li>
+</ul>
+</li>
+<li><a href="#nodejs-%E5%88%9D%E5%A7%8B%E5%8C%96">Node.js 初始化</a><ul>
+<li><a href="#package-name">package name</a></li>
+<li><a href="#version">version</a></li>
+<li><a href="#description">description</a></li>
+<li><a href="#entry-point">entry point</a></li>
+<li><a href="#test-command">test command</a></li>
+<li><a href="#git-repoisty">git repoisty</a></li>
+<li><a href="#keyword">keyword</a></li>
+<li><a href="#author">author</a></li>
+<li><a href="#license">license</a></li>
+<li><a href="#is-this-ok">Is this ok?</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="創建專案"><a href="#創建專案" class="headerlink" title="創建專案"></a>創建專案</h1><h2 id="創建資料夾"><a href="#創建資料夾" class="headerlink" title="創建資料夾"></a>創建資料夾</h2><p>首先我們要先找一個地方放我們的網站檔案<br>像我自己就是把檔案放在 <code>D:</code> 裡面<br>也可以放在桌面 看你個人喜好！<br>創建一個資料夾，名稱隨便，盡量避免中文字！</p>
+<h2 id="開啟-Visual-Studio-Code"><a href="#開啟-Visual-Studio-Code" class="headerlink" title="開啟 Visual Studio Code"></a>開啟 Visual Studio Code</h2><p>打開資料夾後右鍵<code>以 Code 開啟</code></p>
+<h2 id="打開終端機"><a href="#打開終端機" class="headerlink" title="打開終端機"></a>打開終端機</h2><p>使用快捷鍵 <code>Ctrl + ` </code>開啟終端機<br>預設應該會在下面開啟！</p>
+<h1 id="Node-js-初始化"><a href="#Node-js-初始化" class="headerlink" title="Node.js 初始化"></a>Node.js 初始化</h1><p>在剛剛開啟的終端機裡面輸入以下指令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><code class="hljs bash">npm init<br></code></pre></td></tr></table></figure>
+<p>接著他會問一連串的問題</p>
+<h2 id="package-name"><a href="#package-name" class="headerlink" title="package name"></a>package name</h2><p>名稱：你的這個專案要叫什麼名字</p>
+<h2 id="version"><a href="#version" class="headerlink" title="version"></a>version</h2><p>版本：這個其實沒啥用，輸入<code>1.0.0</code>就好了</p>
+<h2 id="description"><a href="#description" class="headerlink" title="description"></a>description</h2><p>簡介：簡單介紹一下你的這個專案是做什麼用的。</p>
+<h2 id="entry-point"><a href="#entry-point" class="headerlink" title="entry point"></a>entry point</h2><p>進入點：這個不要動直接<code>Enter</code>就好了！</p>
+<h2 id="test-command"><a href="#test-command" class="headerlink" title="test command"></a>test command</h2><p>除錯指令：<code>Enter</code> 跳過～</p>
+<h2 id="git-repoisty"><a href="#git-repoisty" class="headerlink" title="git repoisty"></a>git repoisty</h2><p>Git 專案：這個我們之後會調整，<code>Enter</code>跳過～</p>
+<h2 id="keyword"><a href="#keyword" class="headerlink" title="keyword"></a>keyword</h2><p>關鍵字：應該是 SEO 用的，<code>Enter</code>跳過～</p>
+<h2 id="author"><a href="#author" class="headerlink" title="author"></a>author</h2><p>作者：就是你叫什麼名字</p>
+<h2 id="license"><a href="#license" class="headerlink" title="license"></a>license</h2><p>授權：你希望以什麼樣的方式公開你的專案</p>
+<h2 id="Is-this-ok"><a href="#Is-this-ok" class="headerlink" title="Is this ok?"></a>Is this ok?</h2><p>你確定嗎？：這是確認訊息，確認你的資料沒有打錯後輸入<code>yes</code></p>
+<p>完成後你應該會看到你的專案資料夾裡面多了一個<code>package.json</code><br>裡面就是剛剛輸入的資料全部都在這裡！</p>
+<hr>
+<p>恭喜你已經創建好專案了！<br>礙於篇幅所以這篇就先到這裡 拜拜:D</p>
+]]></content>
+      <categories>
+        <category>製作個人部落格</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+</search>
